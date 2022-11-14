@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+// using rafce
+//import React from 'react' (no need after v.17)
+import Resturant from "./component/Basics/Restaurent";
+const App = () => { //fat-arrow function  (<> symbol is syntactic sugar)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Resturant />
+  )
 }
 
-export default App;
+export default App
+
